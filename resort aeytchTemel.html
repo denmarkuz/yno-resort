@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Yno Resort</title>
+  <style>
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .logo {
+      height: 50px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      position: relative;
+      font-size: 18px;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    section {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      font-size: 1.5em;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      height: 100vh;
+    }
+
+    @keyframes backgroundChange {
+      0% { background-image: url('el-nido-philippines-palawan-island.jpg'); }
+      33% { background-image: url('resort 1.2.jpg'); }
+      66% { background-image: url('resort 1.3.jpg'); }
+      100% { background-image: url('resort 1.4.jpg'); }
+    }
+
+    body {
+      background-size: cover;
+      background-position: center;
+      animation: backgroundChange 15s infinite;
+      transition: background 3s ease-in-out;
+    }
+
+    button {
+      width: 200px;
+      padding: 15px;
+      text-align: center;
+      margin: 20px 10px;
+      border-radius: 25px;
+      font-weight: bold;
+      border: 2px solid #009688;
+      background: transparent;
+      color: #fff;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+
+    span {
+      background: #009688;
+      height: 100%;
+      width: 100%;
+      border-radius: 25px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+    h1 {
+      font-size: 70px;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    p {
+      font-size: 30px;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    #section2, #section3 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px;
+    }
+
+    #section2 {
+      background-color: #f4f4f4;
+      flex-direction: row; 
+    }
+
+    #section3 {
+      background-image: url('resort\ 1.6.jpg');
+      padding: 50px;
+    }
+
+    .content {
+      width: 50%;
+      padding: 20px;
+    }
+
+    .image {
+      width: 50%;
+      background-size: contain;
+      background-position: center;
+      height: 100%;
+    }
+
+    #section2 .image {
+      background-image: url('Front-Desk-1.jpg'); 
+      background-repeat: no-repeat;
+    }
+
+    #section3 .image {
+      background-image: url('resort\ 1.6.jpg');
+    }
+    .room-cards {
+      display: flex;
+      flex-wrap: wrap;  
+      gap: 20px;       
+      justify-content: space-between;
+    }
+
+    .room {
+      flex: 1 1 calc(50% - 20px); 
+      min-width: 250px;          
+      background-color: turquoise;
+      border: 1px solid #ddd;
+      padding: 20px;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .room h3 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .room .price {
+      font-size: 18px;
+      font-weight: bold;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    .room p {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .check-details {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+      width: 35%;
+    }
+
+    .check-details h4 {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .check-details ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .check-details ul li {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    #section4 {
+      background-image: url('resort 1.jpg'); 
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-shadow: 1px 1px 5px black;
+      display: flex;
+      align-items: center;
+      padding: 50px;
+    }
+
+    #section4 .content {
+      width: 50%;
+      padding: 20px;
+    }
+    a:link {
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+a.ex5:hover, a.ex5:active {text-decoration: none;}
+a.ex5:hover, a.ex5:active {text-decoration: none;}
+a.ex5:hover, a.ex5:active {text-decoration: none;}
+  </style>
+</head>
+<body>
+
+  <nav>
+    <img src="yno.png" alt="Logo" class="logo">
+    <div>
+      <a href="#section1">Home</a>
+      <a href="#section2">About us</a>
+      <a href="#section3">Tours & Rates</a>
+      <a href="#section4">Contact us</a>
+    </div>
+  </nav>
+
+  <section id="section1">
+    <div class="content">
+      <h1>Yno Isle</h1>
+      <p>Make memories with your loved ones</p>
+      <div>
+        <a href="#section4">
+          <button type="button">Book Now!</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="section2">
+    <div class="content">
+      <p> EL NIDO, PUERTO PRINCESA, PALAWAN</p>
+      <h2>About Us</h2>
+      <p> Yno Isle, a place that offers warm tranquility deep in the bosom of nature. This resort has been made with the ideologies of luxury and peace in mind as it provides means of getting away from the day to day activities. 
+        From classy rooms and breathtaking views to activities that are well coordinated, each element of your stay is given utmost attention. Leisure by our beautiful swimming pool, savoring our culinary delights, and visiting other sites.
+      </p>
+    </div>
+    <div class="image"></div>
+  </section>
+
+  <section id="section4">
+    <div class="content">
+      <h2>Contact us</h2>
+      <p>If you'd like to learn more about what we can do for you or you have a concern, feel free to reach out to us.</p>
+      <p><a class="ex5" href="https//www.Ylo_Isle.com">Learn more</a></p>
+      <p><a class="ex5" href="https//www.Ylo_Isle.com">facebook.com</a></p>
+      <p><a class="ex5" href="https//www.Ylo_Isle.com">Instagram.com</a></p>
+
+    </div>
+  </section>
+</body>
+</html>
+
+  <section id="section3">
+    <div class="content">
+      <div class="image"></div>
+      <h2>Tours & Rates</h2>
+      <div class="room-cards">
+        <div class="room">
+          <h3>STANDARD ROOM</h3>
+          <p class="price">₱4,000</p>
+          <p>Room with a queen bed, private bathroom, free Wi-Fi, TV, and desk.</p>
+        </div>
+
+        <div class="room">
+          <h3>DELUXE ROOM</h3>
+          <p class="price">₱6,500</p>
+          <p>Spacious room with a king bed, city view, minibar, and free breakfast.</p>
+        </div>
+
+        <div class="room">
+          <h3>JUNIOR SUITE</h3>
+          <p class="price">₱8,500</p>
+          <p>Suite with a living area, king bed, jacuzzi, and access to the Executive Lounge.</p>
+        </div>
+        <div class="room">
+          <h3>VIP SUITE</h3>
+          <p class="price">₱12,000</p>
+          <p>Luxury suite with a king bed, city views, living area, and balcony.</p>
+        </div><pre>
+      </div>
+      <div class="check-details">
+        <h4>Check-in: 03:00 PM</h4>
+        <h4>Check-out: 12:00 PM</h4>
+        <ul>
+          <li><strong>Cancellation Policy:</strong> Free cancellation up to 48 hours before check-in.</li>
+          <li><strong>Breakfast:</strong> Available at ₱500 per person. Complimentary for VIP Suite</li>
+        </div>
+      </pre>
+      </section>
+
